@@ -23,7 +23,7 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    include: [Product]
+    include: [{model: Product}]
   })
   .then(dbTagData => res.json(dbTagData))
   .catch(err => {
