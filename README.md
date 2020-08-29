@@ -20,3 +20,14 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation Instructions
 run npm install
+After you have logged in to mysql to create the tables via source db/schema.sql.
+Then run npm run seed - this will generate your categories, products and tags.
+
+To test that these are working, you can use insomina.
+
+## Walk Through Video
+
+https://youtu.be/kD5QEnncqqY
+
+## Created By
+Josh Hall- UCF Bootcamp 2020
